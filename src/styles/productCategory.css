@@ -1,0 +1,91 @@
+.productC-card{
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+}
+
+.card-header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img{
+    width: 100%;
+    transition: all 0.5s;
+    border-radius: 1%;
+}
+
+.card-body{
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid #0000001f;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 5px;
+    margin-top: -60px;
+}
+
+.card-footer button{
+    padding: 5px 15px;
+    border: none;
+    transition: all 0.5s;
+    background-color: white;
+    font-size: 22px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.card-footer button:hover{
+    transform: translateY(-6px)
+}
+
+.card-footer button:first-child{
+    background-color: transparent;
+    color:white;
+}
+
+.card-footer button:nth-child(2){
+    background-color: transparent;
+    color: white;
+}
+
+.card-footer button:last-child{
+    background-color: transparent;
+    color: white;
+}
+
+.card-footer button:active{
+    background-color: rgb(14, 226, 14);
+}
+
+.card-footer button:nth-child(2):focus-within{
+    box-shadow: none;
+    color: red
+}
+
+@media screen and (max-width:1150px) {
+    .hp-card{
+        margin: 15px 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .eye{
+        display: none;
+    }
+}
+
+

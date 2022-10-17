@@ -1,0 +1,74 @@
+.poster-container{
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.poster-container h2{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.poster-container h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-container h2 {
+    display: flex;
+    flex-direction: row;
+}
+.poster-container h2:before, .poster-container h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+.poster-container h2:before {
+    margin-right: 10px
+}
+.poster-container h2:after {
+    margin-left: 10px
+}
+
+.poster-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.poster-content{
+    position: absolute;
+}
+
+.poster-content h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.poster-content p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1200px){
+    .poster-container {
+        width: 1170px;
+    }
+}

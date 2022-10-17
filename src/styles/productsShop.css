@@ -1,0 +1,133 @@
+.shop-row:first-child{
+    display: flex;
+}
+
+.shop-col:first-child {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-col:first-child h2 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.shop-col:last-child {
+    flex: 5;
+}
+
+.s-type {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: small;
+    /* margin-bottom: 50px; */
+}
+
+.shop-products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.shop-pagination {
+    text-align: center;
+}
+
+.shop-bth {
+    width: max-content;
+    background-color: transparent;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(116, 115, 115);
+}
+
+.shop-bth svg {
+    transition: all 0.5ms;
+}
+
+.shop-bth:hover svg {
+    color: #ff0000;
+    margin-left: 5px;
+}
+
+.shop-bth button.active {
+    color: green;
+}
+
+.shop-bth:focus-within {
+    color: white;
+    background-color: black;
+    box-shadow: 0 1px 10px rgba(79, 153, 137, 0.4);
+}
+
+.shop-pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationBttns a{
+    padding: 5px 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover{
+    color: #ffffff;
+    background-color: rgb(34, 212, 34);
+}
+
+.paginationBttns a:active{
+    color: rgb(34, 212, 34);
+}
+
+.paginationActive a{
+    color: #ffffff;
+    background-color: rgb(34, 212, 34);
+}
+
+.paginationActive a:active{
+    color: rgb(34, 212, 34);
+}
+
+.paginationDisabled a{
+    color: rgb(128, 128, 128,0.11);
+    background-color:rgb(128, 128, 128,0.11);
+}
+
+.paginationDisabled:hover a{
+    background-color: rgb(128, 128, 128,0.11);
+    color: rgb(128, 128, 128,0.11);
+}
+
+@media screen and (max-width: 700px) {
+    .shop-row:first-child{
+        flex-direction: column;
+    }
+
+    .shop-col:first-child {
+        display: block;
+    }
+
+    .shop-products {
+        width: auto;
+        height: auto;
+    }
+}
+
+
+

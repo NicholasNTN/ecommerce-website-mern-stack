@@ -1,0 +1,21 @@
+.shipping-container{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.shipping-col{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipping-cols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* form :valid{
+    color: rgb(170, 179, 179);
+} */

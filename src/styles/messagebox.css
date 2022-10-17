@@ -1,0 +1,18 @@
+.message-container{
+    padding-top: 100px;
+    margin-bottom: 50vh;
+}
+
+.message{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: red;
+}
+
+.messageLoading{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(83, 143, 255);
+}

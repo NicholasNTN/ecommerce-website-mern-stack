@@ -1,0 +1,40 @@
+.b-container{
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.b-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.b-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 270px;
+    height: 100px;
+    margin: 15px 0;
+}
+
+.b-col svg{
+    font-size: 25px;
+    color: #ff0000;
+}
+
+.b-col span{
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+@media (min-width: 1200px){
+    .b-container {
+        width: 1200px;
+    }
+}

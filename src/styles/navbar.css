@@ -1,0 +1,272 @@
+.n-container{
+    width: auto;
+    background-color: darkturquoise;
+    height: 100px;
+    padding: 5px 20px;
+    box-shadow: 0 4px 20px rgba(79, 153, 137, 0.4);
+}
+
+.n-rows{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border-bottom: 1px solid #b5b5b5; */
+}
+
+.n-row{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* border-bottom: 1px solid #b5b5b5; */
+}
+
+.n-email{
+    letter-spacing: 1.5px;
+    margin-left: 0;
+}
+
+.icons-user{
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    margin: 0 5px;
+    padding: auto;
+    border-color: none;
+}
+
+.icons-user:hover{
+    color: wheat;
+}
+
+.n-row:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.n-rows:first-child{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.socials img{
+    width: 20px;
+    height: auto;
+    margin: 0 5px;
+    transition: all 0.5s;
+}
+
+.socials img:hover{
+    transform: scale(1.5);
+}
+
+.n-row:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px 0; */
+}
+
+.n-rows:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+.items{
+    list-style-type: none;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icons a:first-child{
+    color: white;
+    font-size: 25px;
+}
+
+.icons a:last-child{
+    color: white;
+    font-size: 25px;
+}
+
+
+/*  */
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+/*  */
+
+
+.n-col span{
+    transition: all 0.5s;
+}
+
+.n-col span:hover{
+    transform: scale(1.5);
+}
+
+.n-cols span{
+    transition: all 0.5s;
+}
+
+.n-cols span:hover{
+    transform: scale(1.5);
+}
+
+.icons span{
+    position: relative;
+    margin: 5px 5px;
+    text-transform: uppercase;
+    top: 10px;
+}
+
+.icons span .totalItems{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #fbf063;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    justify-content: center;
+    top: -10px;
+    left: 9px;
+    color: rgb(12, 12, 12);
+    min-width: 15px;
+    height: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+
+}
+
+.list{
+    margin-right: 20px;
+}
+
+.list a{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+}
+
+.list a:hover{
+    color: rgb(80, 77, 77);
+}
+
+.btn{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: rgba(0,0,0);
+    font-size: 18px;
+}
+
+.list a.active{
+    color:green;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .n-row:first-child{
+        font-size: 10px;
+    }
+
+    .n-rows:first-child{
+        font-size: 10px;
+    }
+
+    .n-row{
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .socials img{
+        width: 15px;
+        margin: 0 5px;
+        display: none;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .list a{
+        font-size: 14px;
+    }
+
+    .list:last-child{
+        margin-right: unset;
+    }
+
+    .icons a:first-child {
+        color: white;
+        font-size: 15px;
+    }
+
+    .icons a:last-child {
+        color: white;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1200px){
+    .n-row{
+        width: 1200px;
+    }
+    .n-rows{
+        width: 1200px;
+    }
+}
+
+

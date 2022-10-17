@@ -1,0 +1,107 @@
+.payment-container{
+    min-height: 100vh;
+}
+
+.payment-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .radio {
+    display: flex;
+    width: 20px;
+    margin: 10px 20px ;
+    min-height: 40px;
+    border-color: #b5b5b5;
+}
+
+/*  */
+.section .section-content:last-child {
+    margin-bottom: inherit;
+}
+
+.section .section-content .content-box:first-child {
+    margin-top: 0;
+}
+
+.section .section-content .content-box .content-box-row:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top: none;
+}
+
+.radio-wrapper .radio-label, .checkbox-wrapper .checkbox-label {
+    display: flex !important;
+    cursor: pointer !important;
+    align-items: center;
+    padding: 1.3em;
+    width: auto;
+}
+
+.radio-wrapper .payment-method-checkbox {
+    display: flex;
+    align-self: center;
+}
+
+.radio-wrapper .radio-input .input-radio:checked, .checkbox-wrapper .checkbox-input .input-checkbox:checked {
+    border: none;
+    box-shadow: 0 0 0 10px #f45b4f inset;
+}
+
+.radio-wrapper .radio-input .input-radio:checked:after, .checkbox-wrapper .checkbox-input .input-checkbox:checked:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+    filter: alpha(opacity=100);
+}
+
+.radio-wrapper .radio-content-input {
+    display: flex;
+    align-items: center;
+}
+
+.radio-wrapper .radio-content-input .main-img {
+    margin-right: 10px;
+    display: flex;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+
+.radio-wrapper .radio-label .radio-label-primary, .checkbox-wrapper .checkbox-label .checkbox-label-primary {
+    display: table-cell;
+    width: 100%;
+}
+
+.radio-wrapper .radio-content-input .quick-tagline {
+    color: #338dbc;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.radio-wrapper .radio-content-input .quick-tagline {
+    color: #338dbc;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.radio-wrapper{
+    width: 41vw;
+    border:0.1rem solid #888;
+}
+
+.radio-wrapper:last-child{
+    border-top: none;
+}
+
+.radio{
+    margin-right: 10px;
+}
+
+.bthz{
+    margin-top: 20px;
+}

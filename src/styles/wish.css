@@ -1,0 +1,29 @@
+.wish-container{
+    min-height: 100vh;
+    padding: 30px 10px;
+}
+
+.wish-row:first-child{
+    margin-bottom: 40px;
+}
+
+.wish-title{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.wish-row:nth-child(2){
+    display: flex;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+
+.wish-col:first-child{
+    flex: 3;
+    /* border: 1px solid black; */
+}
+
+.wish-col:last-child{
+    flex: 1;
+    /* border: 1px solid black; */
+}

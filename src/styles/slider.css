@@ -1,0 +1,78 @@
+.s-container{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    overflow: hidden;
+    /* top: 20px; */
+}
+
+.s-arrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.s-arrow.left{
+    left: 15px;
+}
+
+.s-arrow.right{
+    right: 15px;
+}
+
+.s-arrow svg{
+    font-size: 30px;
+}
+
+.s-arrow:hover svg{
+    color: aqua;
+}
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    transform: translate(0vw);
+    transition: all 1.5s ease;
+}
+
+.slider{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+}
+
+.s-img{
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+
+.loading{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.error{
+    color: steelblue;
+}
